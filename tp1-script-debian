@@ -1,0 +1,6 @@
+#!/bin/sh
+    ssh superv@172.18.10.21 << INVITE
+    /bin/bash script-recup-sys.sh
+INVITE
+    echo "script termine"
+
