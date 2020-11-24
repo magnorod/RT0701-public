@@ -18,6 +18,6 @@ $cpu
 "
 echo "$resultat">>resultat-script.txt
 
-scp -r -p resultat-script.txt superv@172.18.10.20:/tmp/resultat-script-centos.txt
+scp -r -p resultat-script.txt superv@adresseip-debian:/tmp/resultat-script-centos.txt
 
 rm  resultat-script.txt
